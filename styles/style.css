@@ -6,12 +6,13 @@ main {
 
 /* Aside styling */
 aside {
-  width: 300px;
-  margin: 20px auto;
-  border: 1px solid #ccc;
-  padding: 10px;
-  background-color: #f9f9f9;
+  width: 20em;
+  margin: 1em;
+  border: 1px solid  rgba(0, 0, 0, 0.2); /* why use rgba instead of hex here? */
+  padding: 1em;
+  background-color: #eee;
   color: #333;
+  text-align: center;
 }
 
 /* Image inside aside */
@@ -20,21 +21,9 @@ aside img {
   height: auto;
 }
 
-/* Make existing profile img selector more specific */
-main img {
-  width: 150px;
-  height: auto;
-  /* add any other styles you may already have */
-}
-
-/* Paragraph padding set to 0 */
-p {
-  padding: 0;
-}
-
 /* Footer styling */
 footer {
-  margin-top: 20px;
-  border-top: 1px solid #ccc;
+  margin-top: 1em;
+  border-top: 1px solid #000;
   text-align: center;
 }
